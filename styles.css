@@ -1,0 +1,149 @@
+:root {
+    --Background-Color: #fff8e5;
+    --Primary-color: #162c4e;
+    --Secondary-color: #47bdff;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    overflow: hidden;
+    position: relative;
+}
+
+h1 {
+    color: var(--Secondary-color);
+    font-size: 1.2rem;
+    margin: 0;
+
+}
+
+h2 {
+    color: var(--Primary-color);
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+p {
+    color: var(--Primary-color);
+    line-height: 1.6;
+    letter-spacing: -0.3px;
+}
+
+button {
+    background-color: white;
+    border: 0px solid;
+    padding: 20px;
+    font-weight: 700;
+    font-size: large;
+    color: var(--Primary-color);
+}
+
+nav {
+    display: flex;
+    margin: 26px;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+
+.nav-logo {
+    margin-right: 50px;
+    color: var(--Primary-color);
+    align-items: center;
+}
+
+.nav-logo h2 {
+    font-size: 1.5rem;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav-items a{
+    margin-right: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-right {
+    display: flex;  
+    justify-content: flex-end; 
+    align-items: center;
+}
+
+.nav-right a {
+    margin-right: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.home {
+    background-color: var(--Background-Color);
+    height: 80vh;
+    padding-top: 150px;
+}
+
+.home-card {
+    align-items: center;
+    max-width: 60vw;
+    padding: 26px;
+    z-index: -10;
+}
+
+.home h2 {
+    font-size: 4rem;
+    margin: 15px 0 0 0;
+}
+
+.home-image {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    max-width: 30vw;
+    z-index: 1;
+    background-color: #162c4e;
+    padding-top: 150px;
+    max-height: 100vh;
+}
+
+.home-image img {
+    max-height: 80vh;
+    position: relative;
+}
+
+.home-form {
+    background-color: white;
+    border: 1px solid lightgrey;
+    padding: 10px;
+    position: relative;
+    height: 60px;
+}
+
+.home-form input {
+    border: 0px solid;
+    font-size: 1rem;
+    margin-left: 15px;
+    height: 100%;
+    width: 70%;
+}
+
+.home-form button {
+    background-color: var(--Primary-color);
+    color: white;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 10px;
+
+}
+
+.features {
+    background-color: white;
+}
